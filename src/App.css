@@ -1,0 +1,258 @@
+.App {
+  text-align: center;
+  padding: 0px;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 6px 15px;
+  
+}
+.foot li{
+  display: inline-block;
+    padding: 2px 6px;
+    padding: 2px 6px;
+}
+
+.foot li a,.nav li a{
+  color: white;
+  padding: 2px;
+  text-decoration: none;
+}
+
+.nav li a:hover{
+  text-decoration: underline;
+
+}
+.he{
+  margin: 5px;
+}
+
+.regform{
+  display:flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 30%;
+  align-self: center;
+  box-sizing: border-box;
+  padding-bottom: 10vh;
+}
+.regform input{
+  border:1.2px solid rgb(83, 39, 240);
+  margin: 10px;
+  margin-bottom:0px ;
+  padding: 10px;
+  border-radius: 5px;
+  /* align-self: center; */
+}
+
+.logimg{
+  height: 6.5vh;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  right: 5px;
+  
+}
+.logimg2{
+  height: 6vh;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  left: 3px;
+  
+}
+
+.err{
+  color: red;
+  margin-left: 15px;
+  margin-bottom:5px ;
+  font-size:small ;
+  text-align: left;
+}
+.nav{
+  margin-bottom: 0px;
+}
+.regform button{
+  width: 30%;
+  padding: 5px;
+  align-self: center;
+  margin-top: 15px;
+  background-color: yellow;
+  border:0;
+  color: rgb(83, 39, 240);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1.25em;
+  box-sizing: content-box;
+  font-weight: 600;
+}
+button.regbut {
+  background-color: rgb(152, 246, 152);
+  color:black;
+ 
+}
+
+.regform button:hover {
+  border: 1.5px solid rgb(83, 39, 240);
+
+}
+
+.head{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 5px 5px;
+  background-color: yellow;
+  font-weight: 550;
+  font-size: 1.45em;
+}
+
+.foot,.nav{
+  background-color: rgb(83, 39, 240);
+  margin: 0;
+  padding: 5px;
+}
+
+.foot{
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    width:100%
+}
+
+.prodlist{
+  text-align: center;
+  margin: 0.5px;
+}
+
+.prodlist ul .h {
+  color: white;
+  background-color: #5327f0;
+}
+.prodlist ul li{
+  display: inline-block;
+  padding: 10px;
+  margin: 0px;
+  border: 2px solid yellow;
+  /* background-color: rgb(83, 39, 240); */
+  color: rgb(83, 39, 240);
+  width: 80px;
+  height: 30px;
+}
+.prodlist ul .name{
+  width: 160px;
+}
+.prodlist ul{
+  margin: 0px;
+}
+.prodlist h2{
+  font-size:2em;
+  margin-top: 0px;
+}
+
+.x{
+  text-align: center;
+  color: rgb(101, 78, 193);
+}
+
+h2.x{
+  margin-top: 0px;
+}
+
+.user{
+  /* margin-top: 2vh; */
+  padding-top: 2vh;
+  text-align: start;
+  width: fit-content;
+  margin-left: 35vw;
+  padding-left: 2vw;
+  padding-right: 1.5vw;
+  background-image:linear-gradient(to bottom,rgb(236, 231, 254),rgb(179, 161, 246)) ;
+  height: 73vh;
+  border-radius: 8px;
+  color: rgb(249, 251, 251);
+}
+
+.useri{
+  width: 12vw;
+  padding-left: 7vw;
+}
+
+.user input{
+  border: 1.2px solid rgb(83, 39, 240);
+    width: 15vw;
+    padding: 7px;
+    border-radius: 5px;
+    height: 4vh;
+    /* margin-top: px; */
+}
+
+.user button{
+    height: 5vh;
+    padding: 3px;
+    align-self: center;
+    margin-left: 10px;
+    background-color: yellow;
+    border: 0;
+    color: rgb(83, 39, 240);
+    border-radius: 5px;
+    padding: 5px;
+ 
+  box-sizing: content-box;
+    font-weight: 600;
+}
+.user button:hover{
+  background-color: white;
+  color: #1e1d1e;
+}
+
+.back{
+  background-color: rgb(253, 253, 225);
+  margin: 0px;
+  padding-top: 2.5vh;
+  height: 80vh;
+}
+
+.upd a{
+  color:white;
+  text-decoration: none;
+  background-color: #5327f0;
+  border-radius: 20px;
+  padding: 0px 5px 4px;
+}
+
+.upd a:hover{
+  color: #5327f0;
+  background-color: rgb(253, 253, 225);
+  border: 1px solid #5327f0;;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

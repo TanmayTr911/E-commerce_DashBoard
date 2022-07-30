@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.19"
+  },
+  "name": "e-commerce_dashboard",
+  "version": "1.0.0",
+  "description": "Ecommerce site product data dashboard with all imp Nodejs functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TanmayTr911",
+  "license": "ISC"
+}
