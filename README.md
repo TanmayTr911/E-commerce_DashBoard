@@ -9,6 +9,7 @@ with all CRUD operations file upload and much more
 <li>Then cd Ecommerce_DashBoard/Backend</li>
 <li>npm install</li>
 <li>npm start</li>
+ <li>nodemon on the other</li>
 <li>Visit your app at http://localhost:3500.</li>
 <ul>
 
