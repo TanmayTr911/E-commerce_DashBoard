@@ -1,6 +1,16 @@
-E-commerce_DashBoard using mern stack
+E-commerce_DashBoard using MERN stack
 with all CRUD operations file upload and much more
 
+
+<ul>
+<li> Clone the project onto your local machine.</li>
+<li>Then cd Ecommerce_DashBoard/Frontend</li>
+<li>&& On OTher Terminal</li>
+<li>Then cd Ecommerce_DashBoard/Backend</li>
+<li>npm install</li>
+<li>npm start</li>
+<li>Visit your app at http://localhost:3500.</li>
+<ul>
 
 <img width="450" alt="pro" src="https://user-images.githubusercontent.com/89075656/181894514-0126ea43-9bd7-417d-8eca-9e3f289bb533.png" display="inline-block">
 <img width="450" alt="add" src="https://user-images.githubusercontent.com/89075656/181894679-2532c3c6-146c-4d6d-8f9f-b654325f661c.png">
