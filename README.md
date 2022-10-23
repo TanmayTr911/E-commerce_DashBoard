@@ -1,6 +1,6 @@
+#Tanmay Chutiya
 E-commerce_DashBoard using MERN stack
 with all CRUD operations file upload and much more
-
 
 <ul>
 <li> Clone the project onto your local machine.</li>
